@@ -63,10 +63,11 @@ table {
 ===========================================
 */
 
-.baskervville-sc-regular {
-    font-family: "Baskervville SC", serif;
-    font-weight: 400;
-    font-style: normal;
+html{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
   }
 
   /*
@@ -89,23 +90,130 @@ table {
     text-decoration: none;
     color: darkgray;
   }
-header {
+body main header section{
     margin: 4vw 10vw 5.5vw 10vw;
 }
-header nav ul {
+body main header section ul {
     display: flex;
     justify-content: right;
 }
-header nav ul li {
+body main header section.navegacao nav ul li {
     margin: 0 10px 0 10px;
     padding: 0vw 2vw 0vw 2vw;
 }
 
-header nav ul li.Danny {
+body main header section.navegacao nav ul li.Danny {
 margin: 0 40vw 0 0;
 }
 
-header nav ul li strong {
+body main header section.navegacao nav ul li strong {
     font-weight: bold;
 }
-  
+body main h1 {
+  margin: 0 0 0 12.5vw;
+  font-size: 3.5rem;
+  line-height: 140%;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+
+}
+body main  section.banner span.verde{
+  color: #80e7bc;
+}
+body main  section.banner p.texto{
+  margin: 3vw 0 0 12.5vw;
+  line-height: 140%;
+}
+body main section.banner button.botao{
+background-color: black;
+color: white;
+border: none;
+padding: 1vw 2vw 1vw 2vw;
+margin: 3vw 0 0 12.5vw;
+}
+body main  section.banner  a.view{
+color: black;
+margin: 0 0 0 4rem;
+}
+section.banner{
+  display: flex;
+}
+section.banner div.imagem{
+  margin: 0 0 0 8vw;
+}
+section.banner{
+  background-color: rgb(240, 241, 241);
+}
+section.banner h2{
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3vw 0 3vw 0;
+}
+h2.semSection{
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3vw 0 3vw 0;
+}
+section.tabela h2{
+
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3vw 0 3vw 0;
+
+}
+section.textos{
+  display: flex;
+  justify-content: center;
+}
+section.textos div{
+  display: flex;
+  position: relative;
+}
+section.textos div.um p{
+position: absolute;
+top: 20%;
+line-height: 160%;
+margin: 0 10vw 0 13vw;
+}
+section.textos div.dois p{
+  position: absolute;
+  top: 30%;
+  line-height: 160%;
+  margin: 0 10vw 0 10vw;
+  }
+  section.textos div.tres p{
+    position: absolute;
+    top: 30%;
+    line-height: 160%;
+    margin: 0 10vw 0 13vw;
+    }
+    section.textos div.um img{
+      margin: 0 10vw 0 0;
+    }
+    section.textos div.dois img{
+      margin: 0 0 0 40vw;
+    }
+    section.textos div.tres img{
+      margin: 0 10vw 0 0;
+    }
+    section.tabela div.abc{
+      display: flex;
+      margin: 0 0 5vw 0;
+    }
+    section.tabela div.separacao p{
+      margin: 1vw 10vw 0vw 20vw;
+    }
+    section.tabela div.divTabela{
+      margin: 6.6vw 0 0 0;
+    }
+    section.tabela img{
+    
+    }
