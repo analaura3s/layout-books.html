@@ -159,7 +159,7 @@ h2.semSection{
   justify-content: center;
   align-items: center;
   margin: 3vw 0 3vw 0;
-}
+} 
 section.tabela h2{
 
   font-weight: bold;
@@ -177,26 +177,35 @@ section.textos div{
   display: flex;
   position: relative;
 }
+section.textos div.um{
+  background-color: rgb(240, 241, 241);
+  padding: 1vw 0vw 1vw 0vw;
+}
+section.textos div.tres{
+  background-color: rgb(240, 241, 241);
+  margin: 2vw 0 0 0;
+  padding: 1vw 0vw 1vw 0vw;
+}
 section.textos div.um p{
 position: absolute;
 top: 20%;
 line-height: 160%;
-margin: 0 10vw 0 13vw;
+margin: 0 5vw 0 12vw;
 }
 section.textos div.dois p{
   position: absolute;
   top: 30%;
   line-height: 160%;
-  margin: 0 10vw 0 10vw;
+  margin: 0 10vw 0 5vw;
   }
   section.textos div.tres p{
     position: absolute;
     top: 30%;
     line-height: 160%;
-    margin: 0 10vw 0 13vw;
+    margin: 0 5vw 0 12vw;
     }
     section.textos div.um img{
-      margin: 0 10vw 0 0;
+      margin: 0 10vw 0 1vw;
     }
     section.textos div.dois img{
       margin: 0 0 0 40vw;
@@ -206,14 +215,45 @@ section.textos div.dois p{
     }
     section.tabela div.abc{
       display: flex;
-      margin: 0 0 5vw 0;
+      justify-content: center;
     }
-    section.tabela div.separacao p{
-      margin: 1vw 10vw 0vw 20vw;
+    section.tabela p{
+      line-height: 180%;
     }
-    section.tabela div.divTabela{
-      margin: 6.6vw 0 0 0;
+    section.tabela span{
+    font-weight: 700;
     }
-    section.tabela img{
+    section.tabela div.separacao{
+      margin: 0 1vw 0 0;
+    }
+    section.tabela div.abc p{
+      background-color: rgb(240, 241, 241);
+      padding: 1vw ;
+    }
+    p.primeiroP{
+      padding: 0 0 4vw 0;
+    }
+    footer{
+      display: flex;
+      justify-content: space-around;
+    }
+    footer ul{
+      display: flex;
+     margin: 0 0 0 10vw;
+    }
+    footer ul li{
+      padding: 0 3vw 0 0;
+    }
+    footer div.rodape{
+      display: flex;
+      justify-content: center;
+    }
+  
+  
+  
+
     
-    }
+  
+
+ 
+  
