@@ -233,22 +233,26 @@ section.textos div.dois p{
     p.primeiroP{
       padding: 0 0 4vw 0;
     }
-    footer{
-      display: flex;
-      justify-content: space-around;
-    }
-    footer ul{
-      display: flex;
-     margin: 0 0 0 10vw;
-    }
-    footer ul li{
-      padding: 0 3vw 0 0;
-    }
-    footer div.rodape{
-      display: flex;
-      justify-content: center;
-    }
-  
+  footer div.rodape{
+    display: flex;
+    justify-content: space-between;
+  }
+footer ul{
+  display: flex;
+  justify-content: space-between;
+  text-decoration: underline;
+  color: #b1b1b1;
+}
+footer ul li{
+  margin: 0 1.5vw;
+}
+footer{
+  padding: 5vw 23vw 5vw 24vw;
+}
+footer p:first-child{
+  margin-bottom: 1vw;
+}
+
   
   
 
